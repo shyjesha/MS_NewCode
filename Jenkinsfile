@@ -1,5 +1,5 @@
 node{
-   stage('SCM Checkout'){
+   stage('SCM Checkoutt'){
    git 'https://github.com/febyjose/deploymentmvntomcat'
    }
    stage('Build'){
